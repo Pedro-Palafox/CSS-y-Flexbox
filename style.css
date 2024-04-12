@@ -1,0 +1,25 @@
+.barra-navegacion {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .barra-navegacion ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+  }
+  
+  .barra-navegacion li {
+    margin-right: 100px;
+  }
+  
+  .barra-navegacion li a {
+    text-decoration: none;
+    color: black;
+    outline:none;
+  }
+  
+  .barra-navegacion li a:hover {
+    color: blue;
+  }
+  
